@@ -1,0 +1,31 @@
+nav {
+	padding: 0;
+	font-family: Aclonica, Arial, Tahoma;
+}
+
+ul {
+	/* delete list style */
+	list-style: none;
+	direction: ltr
+}
+
+ul li {
+	/* display inline-block */
+	display: inline-block;
+}
+
+ul li a {
+	font-size: 20px;
+	padding: 10px;
+	/* delete the default under line */
+	text-decoration: none;
+	margin: auto 5px;
+	color: #000;	/* color => white */
+	text-transform: capitalize; /* first letter in all words is capital */
+	border-radius: 12px;
+}
+
+ul li a:hover {
+	color: #FFF;
+	background-color: #000
+}

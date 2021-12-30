@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>os2 project</title>
+
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" type="text/css" href="CSS/ImageText.css">
+	<link rel="stylesheet" type="text/css" href="CSS/navbar.css">
+	<link rel="stylesheet" type="text/css" href="CSS/dropdown.css">
+	<link rel="stylesheet" type="text/css" href="CSS/FormStyle.css">
+</head>
+<body>
+
+	<div class="container">
+		<img src="1.jpg" class="bg-image" alt="Snow"><!-- image -->
+
+  		
+  		<nav class="top-left bg-image">
+  			<ul>
+  				
+
+  				
+				<li class="dropdown">
+  					<a class="dropbtn">students</a>
+  					<div class="dropdown-content">
+						<a href="add.html">add new</a>
+						<a href="SearchAbout.html">search</a>
+						
+					</div>
+  				</li>
+
+  				
+</ul>
+
+  		</nav>
+		
+		</nav>
+		
+		
+		
+
+		<!-- center of image -->
+		<div class="centered bg-text">
+			<form action="search.php" method="POST">
+				<header>
+					<h1>search of student</h1>
+				</header>
+				<label for="name">name</label>
+				<input type="text" id="name" name="name"></br>
+				
+				
+				
+				<!-- submit button -->
+				<input type="submit" name="submit"  value="search">
+			</form>
+			</br>
+			<h1>or</h1>
+			<br>
+			<form action="DisplayAll.php" method="POST">
+				<input type="submit" name="displayAll" value="show all students">
+				<br>
+				<br>
+				<br>
+				
+			</form>
+		</div>
+	</div>
+	
+</body>
+</html>
